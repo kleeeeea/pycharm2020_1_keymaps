@@ -246,6 +246,9 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
+  <action id="MoveTabDown">
+    <keyboard-shortcut first-keystroke="shift meta alt h" />
+  </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift meta alt d" />
   </action>
@@ -268,6 +271,7 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="v" />
   </action>
+  <action id="PopupHector" />
   <action id="PrevParameter" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
