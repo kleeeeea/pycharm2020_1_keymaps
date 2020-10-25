@@ -100,6 +100,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl k" />
     <keyboard-shortcut first-keystroke="meta back_space" />
   </action>
+  <action id="EditorDeleteToLineEnd" />
   <action id="EditorDeleteToLineStart">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta back_space" />
   </action>
@@ -109,6 +110,9 @@
   </action>
   <action id="EditorIndentLineOrSelection" />
   <action id="EditorPasteSimple" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="EditorSelectLine">
     <keyboard-shortcut first-keystroke="meta l" />
   </action>
@@ -302,6 +306,9 @@
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
   <action id="RunDashboard.CopyConfiguration" />
+  <action id="ScrollTreeToCenter">
+    <keyboard-shortcut first-keystroke="ctrl l" />
+  </action>
   <action id="SearchEverywhere">
     <keyboard-shortcut first-keystroke="shift meta p" />
   </action>
@@ -323,6 +330,9 @@
   </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta d" />
+  </action>
+  <action id="StringManipulation.ToCamelCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
   </action>
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
@@ -375,6 +385,9 @@
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleStrikethroughAction">
     <keyboard-shortcut first-keystroke="meta alt s" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.ToCamelCaseAction">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta k" />
   </action>
   <action id="osmedile.intellij.stringmanip.ToLowerCaseAction">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta l" />
