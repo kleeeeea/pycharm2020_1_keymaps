@@ -47,6 +47,7 @@
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
   <action id="CompareTwoFiles" />
+  <action id="Compile" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.Jdbc.Execute" />
   <action id="Console.TableResult.CloneColumn" />
@@ -246,9 +247,6 @@
   </action>
   <action id="MoveStatementDown" />
   <action id="MoveStatementUp" />
-  <action id="MoveTabDown">
-    <keyboard-shortcut first-keystroke="shift meta alt h" />
-  </action>
   <action id="MoveTabRight">
     <keyboard-shortcut first-keystroke="shift meta alt d" />
   </action>
@@ -271,7 +269,6 @@
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta v" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="v" />
   </action>
-  <action id="PopupHector" />
   <action id="PrevParameter" />
   <action id="PrevSplitter">
     <keyboard-shortcut first-keystroke="shift alt tab" />
@@ -333,6 +330,11 @@
   <action id="TableResult.UnselectPreviousOccurrence">
     <keyboard-shortcut first-keystroke="shift ctrl g" />
   </action>
+  <action id="ToggleBookmark">
+    <keyboard-shortcut first-keystroke="meta f2" />
+    <keyboard-shortcut first-keystroke="shift ctrl r" />
+    <keyboard-shortcut first-keystroke="meta b" />
+  </action>
   <action id="UML.ShowChanges" />
   <action id="Uml.ShowDiff" />
   <action id="UsageView.Exclude">
@@ -364,9 +366,6 @@
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.MarkdownIntroduceLinkReferenceAction">
     <keyboard-shortcut first-keystroke="meta alt k" />
-  </action>
-  <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleBoldAction">
-    <keyboard-shortcut first-keystroke="meta b" />
   </action>
   <action id="org.intellij.plugins.markdown.ui.actions.styling.ToggleCodeSpanAction">
     <keyboard-shortcut first-keystroke="ctrl back_quote" />
