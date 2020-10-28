@@ -399,4 +399,7 @@
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
   </action>
+  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta s" />
+  </action>
 </keymap>
