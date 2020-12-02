@@ -339,6 +339,7 @@
   </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift s" />
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta s" />
   </action>
   <action id="Switcher" />
   <action id="SwitcherIterateItems" />
@@ -400,8 +401,5 @@
   </action>
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
-  </action>
-  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta s" />
   </action>
 </keymap>
