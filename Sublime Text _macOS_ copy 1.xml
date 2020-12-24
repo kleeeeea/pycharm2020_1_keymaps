@@ -324,6 +324,9 @@
     <keyboard-shortcut first-keystroke="meta alt d" />
   </action>
   <action id="SendEOF" />
+  <action id="ShowBookmarks">
+    <keyboard-shortcut first-keystroke="shift meta b" />
+  </action>
   <action id="ShowIntentionActions">
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
@@ -334,11 +337,13 @@
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
-  <action id="StringManipulation.ToCamelCase">
+  <action id="StringManipulation.ToPascalCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
   </action>
+  <action id="StringManipulation.ToSentenceCaseOrCamelCase">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta w" />
+  </action>
   <action id="StringManipulation.ToSnakeCaseOrCamelCase">
-    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift s" />
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta s" />
   </action>
   <action id="Switcher" />
@@ -401,5 +406,8 @@
   </action>
   <action id="osmedile.intellij.stringmanip.ToUpperCaseAction">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta u" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.WordsAndCamelToConstantStyleCaseAction">
+    <keyboard-shortcut first-keystroke="meta k" second-keystroke="shift s" />
   </action>
 </keymap>
