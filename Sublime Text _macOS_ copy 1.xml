@@ -3,10 +3,6 @@
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
-  <action id="$Paste">
-    <keyboard-shortcut first-keystroke="shift meta v" />
-    <keyboard-shortcut first-keystroke="meta v" />
-  </action>
   <action id="ActivateDebugToolWindow" />
   <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateFindToolWindow" />
@@ -80,9 +76,6 @@
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DuplicatesForm.SendToLeft" />
   <action id="DuplicatesForm.SendToRight" />
-  <action id="Editor Paste">
-    <keyboard-shortcut first-keystroke="meta v" />
-  </action>
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="alt button1" />
   </action>
@@ -109,7 +102,6 @@
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
   <action id="EditorIndentLineOrSelection" />
-  <action id="EditorPasteSimple" />
   <action id="EditorScrollToCenter">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
