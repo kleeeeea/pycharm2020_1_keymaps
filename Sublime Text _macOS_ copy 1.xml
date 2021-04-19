@@ -256,7 +256,7 @@
     <keyboard-shortcut first-keystroke="shift meta alt h" />
   </action>
   <action id="MoveTabRight">
-    <keyboard-shortcut first-keystroke="shift meta alt d" />
+    <keyboard-shortcut first-keystroke="shift meta d" />
   </action>
   <action id="NewScratchBuffer">
     <keyboard-shortcut first-keystroke="shift meta n" />
@@ -344,7 +344,7 @@
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
   <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="shift meta d" />
+    <keyboard-shortcut first-keystroke="shift meta alt d" />
   </action>
   <action id="StringManipulation.ToPascalCaseOrCamelCase">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta c" />
