@@ -74,6 +74,10 @@
   <action id="DatabaseView.FullTextSearch" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DatabaseView.SqlGenerator" />
+  <action id="DebugClass">
+    <keyboard-shortcut first-keystroke="shift ctrl d" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -318,13 +322,11 @@
   <action id="RevealIn">
     <keyboard-shortcut first-keystroke="meta i" />
   </action>
-  <action id="RunClass">
-    <keyboard-shortcut first-keystroke="meta d" />
-  </action>
   <action id="RunDashboard.CopyConfiguration" />
   <action id="RunDashboard.Debug">
     <keyboard-shortcut first-keystroke="shift ctrl d" />
   </action>
+  <action id="RunDashboard.Run" />
   <action id="ScrollTreeToCenter">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
