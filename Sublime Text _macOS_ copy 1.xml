@@ -16,6 +16,9 @@
   </action>
   <action id="ActivateTODOToolWindow" />
   <action id="ActivateVersionControlToolWindow" />
+  <action id="Arrangement.Rule.Group.Condition.Move.Up" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Down" />
+  <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Arrangement.Rule.Remove">
     <keyboard-shortcut first-keystroke="delete" />
     <keyboard-shortcut first-keystroke="back_space" />
@@ -87,6 +90,14 @@
   <action id="DuplicatesForm.SendToRight" />
   <action id="EditorAddOrRemoveCaret">
     <mouse-shortcut keystroke="alt button1" />
+  </action>
+  <action id="EditorCloneCaretAbove">
+    <keyboard-shortcut first-keystroke="shift ctrl up" />
+    <keyboard-shortcut first-keystroke="alt up" />
+  </action>
+  <action id="EditorCloneCaretBelow">
+    <keyboard-shortcut first-keystroke="shift ctrl down" />
+    <keyboard-shortcut first-keystroke="alt down" />
   </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="meta alt right" />
@@ -253,6 +264,8 @@
   </action>
   <action id="JumpToLastChange" />
   <action id="MaintenanceAction" />
+  <action id="MethodOverloadSwitchDown" />
+  <action id="MethodOverloadSwitchUp" />
   <action id="Move">
     <keyboard-shortcut first-keystroke="shift ctrl m" />
   </action>
@@ -354,6 +367,7 @@
     <keyboard-shortcut first-keystroke="alt enter" />
     <keyboard-shortcut first-keystroke="meta enter" />
   </action>
+  <action id="ShowSearchHistory" />
   <action id="SplitHorizontally">
     <keyboard-shortcut first-keystroke="shift meta h" />
   </action>
