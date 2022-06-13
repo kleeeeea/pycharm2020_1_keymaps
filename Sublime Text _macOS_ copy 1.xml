@@ -24,6 +24,10 @@
     <keyboard-shortcut first-keystroke="back_space" />
   </action>
   <action id="ChangesView.ShelveSilently" />
+  <action id="ChooseDebugConfiguration">
+    <keyboard-shortcut first-keystroke="ctrl alt d" />
+    <keyboard-shortcut first-keystroke="meta d" />
+  </action>
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="meta k" second-keystroke="meta o" />
   </action>
@@ -80,10 +84,6 @@
   <action id="DatabaseView.FullTextSearch" />
   <action id="DatabaseView.PropertiesAction" />
   <action id="DatabaseView.SqlGenerator" />
-  <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="shift ctrl d" />
-    <keyboard-shortcut first-keystroke="meta d" />
-  </action>
   <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
