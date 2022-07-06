@@ -251,6 +251,10 @@
     <keyboard-shortcut first-keystroke="meta e" />
   </action>
   <action id="Hg.Commit.And.Push.Executor" />
+  <action id="HideActiveWindow">
+    <keyboard-shortcut first-keystroke="shift escape" />
+    <keyboard-shortcut first-keystroke="ctrl escape" />
+  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="meta add" />
   </action>
